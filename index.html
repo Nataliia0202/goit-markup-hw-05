@@ -471,6 +471,24 @@
         </li>
       </ul>
       </div>
+
+      <form class="form">
+        <h2 class="spend-titel">Подпишитесь на рассылку</h2>
+        <div class="spend-form-fut">
+          <div class="spend-form">
+            <label for="mail" class="form-label"></label>
+            <input type="email" name="mail" id="mail" placeholder="E-mail" class="form-input"/>
+          </div>
+          <button type="submit" class="button spend-btn">Подписаться
+            <svg class="icon-spend">
+              <use href="./images/symbol-defs.svg#send"></use>
+            </svg>
+          </button>
+        </div>
+
+        
+
+      </form>
       
       </div>
     </footer>
@@ -484,6 +502,29 @@
             <use href="./images/symbol-defs.svg#close-black-18dp-2-1"></use>
           </svg>
         </button>
+        <form>
+          <h2>Оставьте свои данные, мы вам перезвоним</h2>
+
+          <label for="name">Имя</label>
+          <input type="text" name="name" id="name"/>
+
+          <label for="tel">Телефон</label>
+          <input tipe="tel" name="tel" id="tel"/>
+
+          <label for="mail">Почта</label>
+          <input type="email" name="mail" id="mail"/>
+
+          <label for="comment">Комментарий</label>
+          <textarea name="comment" id="comment"></textarea>
+
+          <input type="checkbox" name="agreement" id="agreement">
+          <label for="agreement">Соглашаюсь с рассылкой и принимаю 
+            <a href="">Условия договора</a>
+          </label>
+
+
+          <button type="submit">Отправить</button>
+        </form>
       </div>
     </div>
 
